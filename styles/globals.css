@@ -1,7 +1,26 @@
-#barra_nav{
+#barra_nav {
     display: flex;
-    justify-content: center;
-    align-items:center ;
-    background-color: whitesmoke;
-    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    height: 100%;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 15px 30px;
 }
