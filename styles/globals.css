@@ -1,0 +1,7 @@
+#barra_nav{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
