@@ -1,5 +1,5 @@
 #main_header {
-    background-color: #00b4d8;
+    background-color: #778da9;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -14,16 +14,16 @@
 
 #logotipo {
     font-weight: bold;
-    color: #023e8a;
+    color: #778da9;
 }
 
 #navegacion a {
     text-decoration: none;
     margin-left: 20px;
-    color: #333;
+    color: #778da9;
     font-weight: 500;
 }
 
 #navegacion a:hover {
-    color: #00b4d8;
+    color: #ffffff;
 }
