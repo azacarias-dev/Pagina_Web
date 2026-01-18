@@ -1,0 +1,26 @@
+#hero{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+#hero_img{
+    width: 100%;
+    max-height: 850px;
+    object-fit: cover;
+}
+
+#info_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+#img_sello{
+    width: 25%;
+}
