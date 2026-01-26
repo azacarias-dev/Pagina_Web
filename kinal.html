@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fundación Kinal - Centro Educativo de Formación Técnica Profesional">
+    <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/globals.css">
     <link rel="stylesheet" href="componentes/layout/Header/Header.css">
     <link rel="stylesheet" href="componentes/sections/Contact/Contact.css">
     <link rel="stylesheet" href="componentes/sections/banner/Hero.css">
     <link rel="stylesheet" href="componentes/sections/information/info.css">
-    <title>Página Principal | Fundación Kinal</title>
+    <link rel="stylesheet" href="componentes/layout/Footer/Footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <title>Fundación Kinal - Formación Técnica Profesional</title>
 </head>
 
 
 <body>
     <div id="nav_bar">
         <div id="nav">
-            <img src="componentes/layout/Header/kinal_logo.avif" alt="imagen_logo">
-            <a href="#">APÓYANOS</a>
-            <a href="#">QUIÉNES SOMOS</a>
-            <a href="#">EDUCACIÓN</a>
-            <a href="#">ANTIGUOS ALUMNOS</a>
-            <a href="#">BOLSA DE EMPLEOS</a>
-            <a href="#">BLOG</a>
-            <a href="index.html">Inicio</a>
+            <img src="componentes/layout/Header/kinal_logo.avif" alt="Logo Fundación Kinal">
+            <a href="#mision">QUIÉNES SOMOS</a>
+            <a href="#programas">PROGRAMAS</a>
+            <a href="#carreras_section">CARRERAS</a>
+            <a href="#logros">LOGROS</a>
+            <a href="#contacto">CONTACTO</a>
+            <a href="index.html" class="nav-inicio">Inicio</a>
         </div>
     </div>
 
     <!--Informacion sobre Kinal-->
     <section id="hero">
-        <img src="componentes/sections/banner/Fundacion_Kinal.avif" alt="img_fundacionKinal" id="hero_img">
+        <img src="componentes/sections/banner/Oratorio.png" alt="img_fundacionKinal" id="hero_img">
         <div id="info_container">
             <img src="componentes/sections/banner/el_trabajo_bien_hecho.avif" alt="sello_kinal" id="img_sello">
             <h2>TU CAMINO AL ÉXITO ESTÁ EN KINAL</h2>
@@ -85,19 +90,121 @@
         </div>
     </section>
 
+    <h2 id="carreras_title">Carreras para el nivel diversificado</h2>
+
     <!--Carreras para el nivel diversificado-->
     <section id="carreras">
-
+        <div class="carreras_card">
+            <img src="componentes/sections/information/01INFORMÁTICA.avif" alt="img_informatica">
+            <input type="button" name="INFORMÁTICA" class="info_carrera" value="INFORMÁTICA">
+        </div>
+        <div class="carreras_card">
+            <img src="componentes/sections/information/MECANICA.avif" alt="img_informatica">
+            <input type="button" name="MECÁNICA AUTOMOTRIZ" class="info_carrera" value="MECÁNICA AUTOMOTRIZ">
+        </div>
+        <div class="carreras_card">
+            <img src="componentes/sections/information/01ELECTRONICA.avif" alt="img_informatica">
+            <input type="button" name="ELECTRÓNICA" class="info_carrera" value="ELECTRÓNICA">
+        </div>
+        <div class="carreras_card">
+            <img src="componentes/sections/information/01ELECTRICIDAD.avif" alt="img_informatica">
+            <input type="button" name="ELECTRICIDAD" class="info_carrera" value="ELECTRICIDAD">
+        </div>
+        <div class="carreras_card">
+            <img src="componentes/sections/information/01DIBUJO.avif" alt="img_informatica">
+            <input type="button" name="DIBUJO" class="info_carrera" value="DIBUJO">
+        </div>
     </section>
 
     <!--Partners de Kinal-->
     <div id="partners">
-
+        <h2 id="partners_title">NUESTROS PARTNERS</h2>
+        <div id="partners_logos">
+            <img src="componentes/sections/information/istmo_logo.png" alt="logo_istmo" class="partner_logo">
+            <img src="componentes/sections/information/cisco_logo.png" alt="logo_cisco" class="partner_logo">
+            <img src="componentes/sections/information/pearsonvue_logo.png" alt="logo_pearsonvue" class="partner_logo">
+            <img src="componentes/sections/information/vmware_logo.png" alt="logo_vmware" class="partner_logo">
+            <img src="componentes/sections/information/dyned_logo.jpg" alt="logo_dyned" class="partner_logo">
+            <img src="componentes/sections/information/honda_logo.png" alt="logo_honda" class="partner_logo">
+            <img src="componentes/sections/information/autodesk_logo.jpg" alt="logo_partner5" class="partner_logo">
+            <img src="componentes/sections/information/oracle_logo.jpg" alt="logo_partner5" class="partner_logo">
+            <img src="componentes/sections/information/ets_logo.jpg" alt="logo_partner5" class="partner_logo">
+        </div>
     </div>
 
     <!--Contacto de Kinal-->
     <footer id="contact_kinal">
+        <div class="footer-container">
+            <!-- Sección Contáctanos -->
+            <div class="footer-section contacto-section">
+                <h3>CONTÁCTANOS</h3>
+                <div class="contacto-emails">
+                    <div class="email-group">
+                        <p class="email-label">Educación Continua:</p>
+                        <a href="mailto:infocet@kinal.org.gt">infocet@kinal.org.gt</a>
+                    </div>
+                    <div class="email-group">
+                        <p class="email-label">Educación Básica:</p>
+                        <a href="mailto:infobas@kinal.org.gt">infobas@kinal.org.gt</a>
+                    </div>
+                    <div class="email-group">
+                        <p class="email-label">Escuela Técnica:</p>
+                        <a href="mailto:infoets@kinal.org.gt">infoets@kinal.org.gt</a>
+                    </div>
+                    <div class="email-group">
+                        <p class="email-label">Tecnología e Informática:</p>
+                        <a href="mailto:infotic@kinal.org.gt">infotic@kinal.org.gt</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Sección Dirección -->
+            <div class="footer-section direccion-section">
+                <h3>UBICACIÓN</h3>
+                <div class="direccion-content">
+                    <img src="componentes/layout/Header/kinal_logo.avif" alt="Logo Fundación Kinal" class="footer-logo">
+                    <p class="direccion-text">
+                        6 avenida 13-54 zona 7, Colonia Landívar<br>
+                        01007 Ciudad de Guatemala, Guatemala, C.A.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sección Bolsa de Empleos -->
+            <div class="footer-section empleos-section">
+                <h3>BOLSA DE EMPLEOS</h3>
+                <div class="empleos-content">
+                    <p class="empleos-email">
+                        <strong>empleos@kinal.edu.gt</strong>
+                    </p>
+                    <p class="empleos-contact">
+                        Contacto: Lester Guerra<br>
+                        <a href="mailto:lesterguerra@kinal.org.gt">lesterguerra@kinal.org.gt</a>
+                    </p>
+                    <p class="empleos-whatsapp">
+                        WhatsApp: <a href="https://wa.me/50222160090">2216-0090</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sección Redes Sociales -->
+            <div class="footer-section redes-section">
+                <h3>SÍGUENOS</h3>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/kinal.gt" target="_blank" class="red-social facebook" title="Facebook">
+                        <img src="componentes/layout/Footer/Footer_Img/facebook.svg" alt="imagen facebook">
+                    </a>
+                    <a href="#" target="_blank" class="red-social instagram" title="Instagram">
+                        <img src="componentes/layout/Footer/Footer_Img/instagram.svg" alt="imagen instagram">
+                    </a>
+                </div>
+                <p class="redes-text">Mantente actualizado con nuestras novedades</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 FUNDACIÓN KINAL | TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
     </footer>
 
 
